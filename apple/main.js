@@ -21,8 +21,6 @@ function renderingCategory(categoryData) {
             try {
                 shopData = await fetchMerchandise(category.dataUrl)
                 renderingShop(shopData)
-                document.querySelector('.qna-area').classList.remove('d-none')
-                document.querySelector('footer').classList.remove('d-none')
             } catch (error) {
                 document.querySelector('.shop-content').classList.add('d-none')
             }
@@ -47,6 +45,9 @@ function renderingShop(shop) {
         widgetHTML += createWidget(widget)
     })
     document.querySelector('.spec-widget').innerHTML = widgetHTML
+
+    document.querySelector('.qna-area').classList.remove('d-none')
+    document.querySelector('footer').classList.remove('d-none')
 }
 
 function createTitleArea(title, price) {
