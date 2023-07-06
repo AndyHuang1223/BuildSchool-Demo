@@ -1,0 +1,294 @@
+{
+    "title": "購買 iPhone 14 Pro",
+    "name": "iPhone 14 Pro",
+    "images": {
+        "deeppurple": [
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-deeppurple_AV1.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-deeppurple_AV2.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-deeppurple.jpeg"
+        ],
+        "gold": [
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-gold_AV1.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-gold_AV2.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-gold.jpeg"
+        ],
+        "silver": [
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-silver_AV1.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-silver_AV2.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-silver.jpeg"
+        ],
+        "spaceblack": [
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-spaceblack_AV1.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-spaceblack_AV2.jpeg",
+            "./images/iphone-14-pro/iphone-14-pro-finish-select-202209-6-1inch-spaceblack.jpeg"
+        ]
+    },
+    "widgets": [
+        {
+            "title": "機型",
+            "subTitle": "哪一款最適合你？",
+            "type": "model",
+            "col": 1
+        },
+        {
+            "title": "外觀",
+            "subTitle": "挑選你喜愛的外觀。",
+            "type": "color",
+            "col": 2
+        },
+        {
+            "title": "儲存裝置",
+            "subTitle": "你需要多少儲存空間？",
+            "type": "storage",
+            "col": 1
+        }
+    ],
+    "colors": [
+        {
+            "colorName": "深紫色",
+            "colorCode": "deeppurple",
+            "colorImg": "./images/iphone-14-pro/iphone-pro-finish-deeppurple-2022.jpeg"
+        },
+        {
+            "colorName": "金色",
+            "colorCode": "gold",
+            "colorImg": "./images/iphone-14-pro/iphone-pro-finish-gold-2022.jpeg"
+        },
+        {
+            "colorName": "銀色",
+            "colorCode": "silver",
+            "colorImg": "./images/iphone-14-pro/iphone-pro-finish-silver-2022.jpeg"
+        },
+        {
+            "colorName": "太空黑色",
+            "colorCode": "spaceblack",
+            "colorImg": "./images/iphone-14-pro/iphone-pro-finish-spaceblack-2022.jpeg"
+        }
+    ],
+    "specifications": [
+        {
+            "sku": "iPhone-14-Pro-deeppurple-128",
+            "model": "iPhone 14 Pro",
+            "storage": "128GB",
+            "color": "deeppurple",
+            "price": 34900
+        },
+        {
+            "sku": "iPhone-14-Pro-deeppurple-256",
+            "model": "iPhone 14 Pro",
+            "storage": "256GB",
+            "color": "deeppurple",
+            "price": 38400
+        },
+        {
+            "sku": "iPhone-14-Pro-deeppurple-512",
+            "model": "iPhone 14 Pro",
+            "storage": "512GB",
+            "color": "deeppurple",
+            "price": 45400
+        },
+        {
+            "sku": "iPhone-14-Pro-deeppurple-1024",
+            "model": "iPhone 14 Pro",
+            "storage": "1TB",
+            "color": "deeppurple",
+            "price": 52400
+        },
+        {
+            "sku": "iPhone-14-Pro-gold-128",
+            "model": "iPhone 14 Pro",
+            "storage": "128GB",
+            "color": "gold",
+            "price": 34900
+        },
+        {
+            "sku": "iPhone-14-Pro-gold-256",
+            "model": "iPhone 14 Pro",
+            "storage": "256GB",
+            "color": "gold",
+            "price": 38400
+        },
+        {
+            "sku": "iPhone-14-Pro-gold-512",
+            "model": "iPhone 14 Pro",
+            "storage": "512GB",
+            "color": "gold",
+            "price": 45400
+        },
+        {
+            "sku": "iPhone-14-Pro-gold-1024",
+            "model": "iPhone 14 Pro",
+            "storage": "1TB",
+            "color": "gold",
+            "price": 52400
+        },
+        {
+            "sku": "iPhone-14-Pro-silver-128",
+            "model": "iPhone 14 Pro",
+            "storage": "128GB",
+            "color": "silver",
+            "price": 34900
+        },
+        {
+            "sku": "iPhone-14-Pro-silver-256",
+            "model": "iPhone 14 Pro",
+            "storage": "256GB",
+            "color": "silver",
+            "price": 38400
+        },
+        {
+            "sku": "iPhone-14-Pro-silver-512",
+            "model": "iPhone 14 Pro",
+            "storage": "512GB",
+            "color": "silver",
+            "price": 45400
+        },
+        {
+            "sku": "iPhone-14-Pro-silver-1024",
+            "model": "iPhone 14 Pro",
+            "storage": "1TB",
+            "color": "silver",
+            "price": 52400
+        },
+        {
+            "sku": "iPhone-14-Pro-spaceblack-128",
+            "model": "iPhone 14 Pro",
+            "storage": "128GB",
+            "color": "spaceblack",
+            "price": 34900
+        },
+        {
+            "sku": "iPhone-14-Pro-spaceblack-256",
+            "model": "iPhone 14 Pro",
+            "storage": "256GB",
+            "color": "spaceblack",
+            "price": 38400
+        },
+        {
+            "sku": "iPhone-14-Pro-spaceblack-512",
+            "model": "iPhone 14 Pro",
+            "storage": "512GB",
+            "color": "spaceblack",
+            "price": 45400
+        },
+        {
+            "sku": "iPhone-14-Pro-spaceblack-1024",
+            "model": "iPhone 14 Pro",
+            "storage": "1TB",
+            "color": "spaceblack",
+            "price": 52400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-deeppurple-128",
+            "model": "iPhone 14 Pro Max",
+            "storage": "128GB",
+            "color": "deeppurple",
+            "price": 38900
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-deeppurple-256",
+            "model": "iPhone 14 Pro Max",
+            "storage": "256GB",
+            "color": "deeppurple",
+            "price": 42400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-deeppurple-512",
+            "model": "iPhone 14 Pro Max",
+            "storage": "512GB",
+            "color": "deeppurple",
+            "price": 49400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-deeppurple-1024",
+            "model": "iPhone 14 Pro Max",
+            "storage": "1TB",
+            "color": "deeppurple",
+            "price": 56400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-gold-128",
+            "model": "iPhone 14 Pro Max",
+            "storage": "128GB",
+            "color": "gold",
+            "price": 38900
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-gold-256",
+            "model": "iPhone 14 Pro Max",
+            "storage": "256GB",
+            "color": "gold",
+            "price": 42400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-gold-512",
+            "model": "iPhone 14 Pro Max",
+            "storage": "512GB",
+            "color": "gold",
+            "price": 49400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-gold-1024",
+            "model": "iPhone 14 Pro Max",
+            "storage": "1TB",
+            "color": "gold",
+            "price": 56400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-silver-128",
+            "model": "iPhone 14 Pro Max",
+            "storage": "128GB",
+            "color": "silver",
+            "price": 38900
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-silver-256",
+            "model": "iPhone 14 Pro Max",
+            "storage": "256GB",
+            "color": "silver",
+            "price": 42400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-silver-512",
+            "model": "iPhone 14 Pro Max",
+            "storage": "512GB",
+            "color": "silver",
+            "price": 49400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-silver-1024",
+            "model": "iPhone 14 Pro Max",
+            "storage": "1TB",
+            "color": "silver",
+            "price": 56400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-spaceblack-128",
+            "model": "iPhone 14 Pro Max",
+            "storage": "128GB",
+            "color": "spaceblack",
+            "price": 38900
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-spaceblack-256",
+            "model": "iPhone 14 Pro Max",
+            "storage": "256GB",
+            "color": "spaceblack",
+            "price": 42400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-spaceblack-512",
+            "model": "iPhone 14 Pro Max",
+            "storage": "512GB",
+            "color": "spaceblack",
+            "price": 49400
+        },
+        {
+            "sku": "iPhone-14-Pro-Max-spaceblack-1024",
+            "model": "iPhone 14 Pro Max",
+            "storage": "1TB",
+            "color": "spaceblack",
+            "price": 56400
+        }
+    ]
+}

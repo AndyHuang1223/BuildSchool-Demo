@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .game-board{
+            margin: auto;
+            width: 200px;
+            text-align: center;
+        }
+        .game-board input{
+            width: 100%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .game-board .hint{
+            margin-top: 10px;
+            color: red;
+        }
+        .btn-group{
+            width: 100%;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game-board">
+        <h1>猜數字遊戲</h1>
+        <input type="text" id="guess_input" placeholder="請輸入數字">
+        <div class="hint"></div>
+        <div class="btn-group">
+            <button id="guess_btn">猜！</button>
+            <button id="restart_btn">重新開始</button>
+            <button id="show_answer_btn">看答案</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
