@@ -4,11 +4,11 @@
         "dataUrl": "./data/iphone-14-pro.json"
     },
     {
-        "title": "iPad",
+        "title": "iPad(TODO)",
         "dataUrl": ""
     },
     {
-        "title": "Mac",
+        "title": "Mac(TODO)",
         "dataUrl": ""
     }
 ]
