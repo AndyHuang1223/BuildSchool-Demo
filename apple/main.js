@@ -19,7 +19,7 @@ function renderingCategory(categoryData) {
         button.onclick = async function () {
             document.querySelector('.shop-content').classList.remove('d-none')
             try {
-                await fetchMerchandise(category.dataUrl)
+                shopData = await fetchMerchandise(category.dataUrl)
                 renderingShop(shopData)
                 document.querySelector('.qna-area').classList.remove('d-none')
                 document.querySelector('footer').classList.remove('d-none')
@@ -123,12 +123,10 @@ function createCarousel(images) {
                 </div>`
 }
 
-async function fetchMerchandise(url) {
-    const response = await fetch(url)
-    const data = await response.json()
-    shopData = data
+function fetchMerchandise(url) {
+    return fetch(url)
+        .then(response => response.json())
 }
-
 
 function createWidget(widget) {
     const items = getWidgetItem(widget.type)
@@ -245,9 +243,14 @@ window.onload = function () {
         .then(response => response.json())
         .then(data => {
             renderingCategory(data)
+            fetchMerchandise(data[0].dataUrl)
+                .then(shop => {
+                    shopData = shop
+                    renderingShop(shopData)
+                })
         })
         .catch((e) => {
-
+            console.warn(e)
         })
 
 }
