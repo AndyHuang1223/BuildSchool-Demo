@@ -244,11 +244,11 @@ window.onload = function () {
         .then(response => response.json())
         .then(data => {
             renderingCategory(data)
-            fetchMerchandise(data[0].dataUrl)
-                .then(shop => {
-                    shopData = shop
-                    renderingShop(shopData)
-                })
+            return fetchMerchandise(data[0].dataUrl)
+        })
+        .then(shop => {
+            shopData = shop
+            renderingShop(shopData)
         })
         .catch((e) => {
             console.warn(e)
