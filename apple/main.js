@@ -1,4 +1,5 @@
 const categoryList = document.getElementById('category_list')
+
 let shopData = {}
 let selectModel, selectColor, selectStorage
 
@@ -18,6 +19,7 @@ function renderingCategory(categoryData) {
         button.textContent = category.title
         button.onclick = async function () {
             document.querySelector('.shop-content').classList.remove('d-none')
+            resetSummaryArea()
             try {
                 shopData = await fetchMerchandise(category.dataUrl)
                 renderingShop(shopData)
@@ -30,7 +32,12 @@ function renderingCategory(categoryData) {
         categoryList.append(li)
     })
 }
-
+function resetSummaryArea() {
+    selectModel = ''
+    selectColor = ''
+    selectStorage = ''
+    document.querySelector('.summary-area').classList.add('d-none')
+}
 function renderingShop(shop) {
     // console.log(shop);
 
@@ -132,13 +139,15 @@ function fetchMerchandise(url) {
 function createWidget(widget) {
     const items = getWidgetItem(widget.type)
     let itemHTML = ''
-
+   
     items.forEach(item => {
         if (widget.type === 'color') {
-            let color = shopData.colors.find(c => c.colorCode === item)
+            const color = shopData.colors.find(c => c.colorCode === item)
+            const imgSize = widget.col > 2 ? 50 : 25
+            //let colorIcon = widget.col
             itemHTML += `<div class="col">
                         <div class="border border-secondary-subtle border-1 rounded-3 p-4 text-center" role="button" data-color="${color.colorCode}" onclick="clickHandler(this,'${widget.type}')">
-                            <img class="w-25" src="${color.colorImg}" alt="${color.colorName}">
+                            <img class="w-${imgSize}" src="${color.colorImg}" alt="${color.colorName}">
                         </div>
                     </div>`
         } else if (widget.type === 'model') {
@@ -219,6 +228,7 @@ function getSummaryInfo() {
 
         const summaryArea = document.querySelector('.summary-area')
         summaryArea.classList.remove('d-none')
+        summaryArea.querySelector('.product-name').textContent = `${spec.model}`
         const summaryImg = summaryArea.querySelector('.summary-area-img img')
         const img = shopData.images[spec.color][1]
         summaryImg.src = img
